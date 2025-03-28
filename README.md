@@ -89,7 +89,7 @@ Feel free to explore and try it out already, it's designed to be modular and int
 
 ## Project Status
 
-This project is actively developed. The core system is fully functional and stable.  
+This project is actively developed. The core system is functional and stable.  
 Contributions, feedback and suggestions are welcome!
 
 ---
