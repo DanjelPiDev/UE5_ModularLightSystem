@@ -7,6 +7,10 @@ This project is released under the MIT License.
 However, redistribution or republishing this package (in whole or parts) on the Unreal Engine Marketplace (Fab) or any other asset store is **not allowed**.  
 Please respect the intent of the open source release.
 
+> ⚠️ This project may require Unreal Engine's "Starter Content" (free from Epic Games).
+> Please make sure to enable or migrate the Starter Content to the project manually.
+> Due to licensing restrictions, these assets are **not included** in this repository.
+
 A modular, dynamic, and highly customizable lighting system for Unreal Engine 5, built entirely with Blueprints.  
 This system is designed for both gameplay logic and level design, allowing interactive lights, circuit behavior, and visual feedback directly in the editor.
 

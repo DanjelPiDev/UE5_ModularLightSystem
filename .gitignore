@@ -13,3 +13,12 @@ Saved
 *.suo
 *.xcodeproj
 *.xcworkspace
+/Content/StarterContent/
+/Content/Collections/
+/Content/__ExternalObjects__/
+/Content/__ExternalActors__/
+/Content/LevelPrototyping/
+/Content/FPWeapon/
+/Content/FirstPersonArms/
+/Content/FirstPerson/
+/Content/Developers/
