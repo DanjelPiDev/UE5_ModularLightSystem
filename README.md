@@ -13,11 +13,6 @@ Please respect the intent of the open source release.
 
 ---
 
-> I know from personal experience that it can be hard to find free assets that truly help when you're just starting out.
-Since I really enjoy interactive games where you can engage deeply with the world around you, I wanted to start with something small but meaningful: a modular light system.
-Turning lights on and off may sound simple at first, but once you aim for more detailed behavior, you’ll quickly realize how deep it can get.
-That's why I created this system: to help others kickstart their own projects, while still giving them room to expand and customize it.
-
 A modular, dynamic, and highly customizable lighting system for Unreal Engine 5, built entirely with Blueprints.  
 This system is designed for both gameplay logic and level design, allowing interactive lights, circuit behavior, and visual feedback directly in the editor.
 
