@@ -74,6 +74,7 @@ Feel free to explore and try it out already, it's designed to be modular and int
 - [ ] Light presets (e.g. flickering neon, broken halogen, sci-fi light pulses)
 - [ ] Editor UI / Widget for circuit overview (Currently uses debug lines and text labels, and lines are kinda broken in UE)
 - [ ] ... if you have suggestions, feel free to contribute or contact me
+- [ ] <b>Better folder structure and documentation</b> xD
 - [ ] FAB Marketplace release
 
 ---
