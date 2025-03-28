@@ -22,18 +22,19 @@ This project is **completely free** and will also be released on the **Unreal En
 
 - **Modular Light Blueprint**: Easily place and configure lights with custom behavior.
 - **Parallel & Series Circuits**: Simulate realistic chain reactions (e.g. if a light breaks, the chain is affected).
-- **Trigger Volumes**: Use box, sphere or capsule trigger zones to toggle lights.
-- **Light Switch Blueprints**: Link light switches to one or more lights or triggers.
-- **Destroyable Lights**: Optional damage system for destructible light actors.
+- **Trigger Volumes**: Use box, sphere or cylinder trigger zones to toggle lights.
+- **Light Switch Blueprints**: Link light switches to one or more lights or triggers (With an optional delay).
+- **Destroyable Lights**: Optional damage system for destructible light actors (Currently set bool and turn intensity to 0).
 - **Sound Integration**: Individual audio slots for:
     - Switch toggling
     - Light activation/deactivation
     - Flicker
     - Destruction
+- **Flickering Lighting**: Optional flickering interpolation.
 - **Gradient Lighting**: Color blending support with optional flickering interpolation.
 - **Custom Settings**: Change light radius, color, type, orientation and more.
-- **Smart Interaction**: Lights check if they're interactable before reacting.
-- **Visual Debug Lines**: Circuit connections are drawn in the editor for easy overview.
+- **Smart Interaction**: Lights check if they're interactable before reacting (Player has to look at the switch / light).
+- **Visual Debug Lines**: Circuit connections are drawn in the editor for easy overview (Only debug text is working, the lines are kinda broken).
 - **Text Labels**: Show how many connections each light has and in which mode (Series/Parallel).
 
 ---
@@ -67,11 +68,11 @@ Feel free to explore and try it out already, it's designed to be modular and int
 
 ## Planned Features
 
+- [ ] Better circuit system (Currently uses a simple array of connected lights `BP_Light`).
 - [ ] Save/Load system for light states
 - [ ] Energy-based gameplay integration (power limiters, voltage drop, etc.)
 - [ ] Light presets (e.g. flickering neon, broken halogen, sci-fi light pulses)
-- [ ] Merged Editor UI / Widget for circuit overview (Currently uses debug lines and text labels, and lines are kinda broken in UE)
-- [ ] Custom material support for emissive light meshes
+- [ ] Editor UI / Widget for circuit overview (Currently uses debug lines and text labels, and lines are kinda broken in UE)
 - [ ] ... if you have suggestions, feel free to contribute or contact me
 - [ ] FAB Marketplace release
 
