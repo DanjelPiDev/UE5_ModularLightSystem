@@ -53,7 +53,7 @@ Drag and drop `BP_InteractionManager` from
 ### 2. Enhanced Input System Required
 
 Make sure your project uses the Enhanced Input System.
-You must have an input action called `IA_Use` (Or you can change it inside the Blueprint).
+You must have an input action called `IA_Use` (Or you can change it inside the Blueprint `BP_InteractionManager`).
 ![img.png](Images/img.png)
 
 ### 3. Set the Input Mapping
