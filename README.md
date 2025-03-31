@@ -22,10 +22,10 @@ This project is **completely free** and will also be released on the **Unreal En
 
 ## Features
 
-- **Modular Light Blueprint**: Easily place and configure lights with custom behavior.
+- **Modular Light Blueprint `BP_Light`**: Easily place and configure lights with custom behavior.
 - **Parallel & Series Circuits**: Simulate realistic chain reactions (e.g. if a light breaks, the chain is affected).
 - **Trigger Volumes**: Use box, sphere or cylinder trigger zones to toggle lights.
-- **Light Switch Blueprints**: Link light switches to one or more lights or triggers (With an optional delay).
+- **Light Switch Blueprints `BP_LightTriggerSwitch`**: Link light switches to one or more lights or triggers (With an optional delay).
 - **Destroyable Lights**: Optional damage system for destructible light actors (Currently set bool and turn intensity to 0).
 - **Sound Integration**: Individual audio slots for:
     - Switch toggling
@@ -37,7 +37,8 @@ This project is **completely free** and will also be released on the **Unreal En
 - **Custom Settings**: Change light radius, color, type, orientation and more.
 - **Smart Interaction**: Lights check if they're interactable before reacting (Player has to look at the switch / light).
 - **Light Movement**: Lights can move randomly, on Hit change direction, also with a random direction change. (`WIP` Spline movement).
-- **Light Strings**: Connect multiple lights in a chain on a cable (Currently only on the spine, because the physical cable is not a SkeletalMesh).
+- **Light Strings `BP_LightString`**: Connect multiple lights in a chain on a cable (Currently only on the spine, because the physical cable is not a SkeletalMesh).
+  - **Flicker + Gradient**: Flicker and gradient support for light strings (Same as single lights `BP_Light`).
 - **Visual Debug Lines**: Circuit connections are drawn in the editor for easy overview (Only debug text is working, the lines are kinda broken).
 - **Text Labels**: Show how many connections each light has and in which mode (Series/Parallel).
 
