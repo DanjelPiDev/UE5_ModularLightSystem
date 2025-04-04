@@ -41,7 +41,7 @@ This project is **completely free** and will also be released on the **Unreal En
 - **Gradient Lighting**: Color blending support with optional flickering interpolation.
 - **Custom Settings**: Change light radius, color, type, orientation and more.
 - **Smart Interaction**: Lights check if they're interactable before reacting (Player has to look at the switch / light).
-- **Light Movement**: Lights can move randomly, on Hit change direction, also with a random direction change. (`WIP` Spline movement).
+- **Light Movement**: Lights can move randomly, on Hit change direction, also with a random direction change, and following a spline.
 - **Light Strings `BP_LightString`**: Connect multiple lights in a chain on a cable (Currently only on the spine, because the physical cable is not a SkeletalMesh).
   - **Flicker + Gradient**: Flicker and gradient support for light strings (Same as single lights `BP_Light`).
 - **Visual Debug Lines**: Circuit connections are drawn in the editor for easy overview (Only debug text is working, the lines are kinda broken).
