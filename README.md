@@ -13,6 +13,15 @@ Please respect the intent of the open source release.
 
 ---
 
+<p align="center">
+  <img src="./assets/Gradient_Flicker_Lights.gif" width="400"/>
+  <img src="./assets/RNG_Lights.gif" width="400"/>
+</p>
+
+<p align="center">
+  <img src="./assets/Gameplay.gif" width="600"/>
+</p>
+
 A modular, dynamic, and highly customizable lighting system for Unreal Engine 5, built entirely with Blueprints.  
 This system is designed for both gameplay logic and level design, allowing interactive lights, circuit behavior, and visual feedback directly in the editor.
 
@@ -55,7 +64,7 @@ Drag and drop `BP_LightInteractionManager` from
 
 Make sure your project uses the Enhanced Input System.
 You must have an input action called `IA_Use` (Or you can change it inside the Blueprint `BP_LightInteractionManager`).
-![img.png](Images/img.png)
+![img.png](assets/img.png)
 
 ### 3. Set the Input Mapping
 
