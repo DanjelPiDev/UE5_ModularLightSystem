@@ -7,10 +7,6 @@ This project is released under the MIT License.
 However, redistribution or republishing this package (in whole or parts) on the Unreal Engine Marketplace (Fab) or any other asset store is **not allowed**.  
 Please respect the intent of the open source release.
 
-> ⚠️ This project may require Unreal Engine's "Starter Content" (free from Epic Games).
-> Please make sure to enable or migrate the Starter Content to the project manually.
-> Due to licensing restrictions, these assets are **not included** in this repository (If you want to view my Level).
-
 ---
 
 <p align="center">
