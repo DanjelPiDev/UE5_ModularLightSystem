@@ -73,7 +73,7 @@ You can now use:
 Located under
 `Content/MLS/Blueprints/Components/`
 
-> ⚠️ A full documentation will be created later.
+> ⚠️ A part of the Documentation is available here [Wiki](https://github.com/NullPointerExcy/UE5_ModularLightSystem/wiki).
 Feel free to explore and try it out already, it's designed to be modular and intuitive!
 
 ---
