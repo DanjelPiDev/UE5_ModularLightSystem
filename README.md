@@ -13,8 +13,6 @@ Please respect the intent of the open source release.
 
 ---
 
-![GL](./images/Gradient_Flicker_Lights.gif)
-
 A modular, dynamic, and highly customizable lighting system for Unreal Engine 5, built entirely with Blueprints.  
 This system is designed for both gameplay logic and level design, allowing interactive lights, circuit behavior, and visual feedback directly in the editor.
 
