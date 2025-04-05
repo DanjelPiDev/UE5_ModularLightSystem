@@ -24,8 +24,6 @@ This repository may include setup guides, usage notes, update logs, and addition
 A modular, dynamic, and highly customizable lighting system for Unreal Engine 5, built entirely with Blueprints.  
 This system is designed for both gameplay logic and level design, allowing interactive lights, circuit behavior, and visual feedback directly in the editor.
 
-This project is **completely free** and will also be released on the **Unreal Engine Marketplace (FAB)** once finalized.
-
 ---
 
 ## Features
@@ -115,15 +113,6 @@ Contributions, feedback and suggestions are welcome!
 
 ---
 
-## License
-
-This project is licensed under the MIT License, see the [LICENSE](./LICENSE) file for details.
-
-**Note:** You are **not permitted** to upload this content to the Unreal Marketplace (Fab) or any other commercial asset store without explicit permission from the author.
-
----
-
 ## Support
 
-If you like this project, feel free to share it.  
-Once the FAB release is live, links will be added here.
+If you like this project, feel free to share it.
