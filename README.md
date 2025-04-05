@@ -6,6 +6,7 @@ Developed with Unreal Engine 5
 This project is released under the MIT License.  
 However, redistribution or republishing this package (in whole or parts) on the Unreal Engine Marketplace (Fab) or any other asset store is **not allowed**.  
 Please respect the intent of the open source release.
+> Edit: I uploaded it to the Unreal Engine Marketplace (Fab) for free, so you can download it there (Awaiting approval).
 
 ---
 
