@@ -3,7 +3,7 @@
 Developed with Unreal Engine 5
 
 > ⚠️ This repository serves only as documentation and for example purposes.  
-The full Modular Light System package (including all assets and Blueprints) is available on Epic Games FAB -> [here]([https://www.fab.com/](https://www.fab.com/listings/5e7bcd51-0d44-4f7c-8f29-4d08cb1e7662)).
+The full Modular Light System package (including all assets and Blueprints) is available on Epic Games FAB -> [here](https://www.fab.com/listings/5e7bcd51-0d44-4f7c-8f29-4d08cb1e7662).
 
 To use the system in your project, please download it directly via FAB.  
 This repository may include setup guides, usage notes, update logs, and additional resources.
