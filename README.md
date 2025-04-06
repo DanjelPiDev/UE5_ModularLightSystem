@@ -29,25 +29,14 @@ This system is designed for both gameplay logic and level design, allowing inter
 
 ## Features
 
-- **Modular Light Blueprint `BP_Light`**: Easily place and configure lights with custom behavior.
-- **Parallel & Series Circuits**: Simulate realistic chain reactions (e.g. if a light breaks, the chain is affected).
-- **Trigger Volumes**: Use box, sphere or cylinder trigger zones to toggle lights.
-- **Light Switch Blueprints `BP_LightTriggerSwitch`**: Link light switches to one or more lights or triggers (With an optional delay).
-- **Destroyable Lights**: Optional damage system for destructible light actors (Currently set bool and turn intensity to 0).
-- **Sound Integration**: Individual audio slots for:
-    - Switch toggling
-    - Light activation/deactivation
-    - Flicker
-    - Destruction
-- **Flickering Lighting**: Optional flickering interpolation.
-- **Gradient Lighting**: Color blending support with optional flickering interpolation.
-- **Custom Settings**: Change light radius, color, type, orientation and more.
-- **Smart Interaction**: Lights check if they're interactable before reacting (Player has to look at the switch / light).
-- **Light Movement**: Lights can move randomly, on Hit change direction, also with a random direction change, and following a spline.
-- **Light Strings `BP_LightString`**: Connect multiple lights in a chain on a cable (Currently only on the spine, because the physical cable is not a SkeletalMesh).
-  - **Flicker + Gradient**: Flicker and gradient support for light strings (Same as single lights `BP_Light`).
-- **Visual Debug Lines**: Circuit connections are drawn in the editor for easy overview (Only debug text is working, the lines are kinda broken).
-- **Text Labels**: Show how many connections each light has and in which mode (Series/Parallel).
+- Easy-to-use Blueprint components (BP_Light, BP_LightSwitchTrigger, etc.)
+- Modular setup for lights, triggers, and future power supply logic (Only None cicuit behavior is currently working)
+- Flicker presets and color gradients via curves
+- Cable support using Unreal's built-in Cable Component
+- Spline-based light movement, Movement along axis and random movement
+- Enhanced Input System support (Change the InputAction to your action, see Setup)
+- Destroyable lights (optional) with trigger zones
+- Interaction support for player-controlled toggling (Player has to look at the switch / light, to interact with it)
 
 ---
 
@@ -84,15 +73,12 @@ Located under
 
 ## Planned Features
 
-- [ ] <b>`WIP`</b> Power system (e.g. battery, generator, solar panel) with energy consumption and recharge. Which takes into account the power consumption of the lights, the power source, and the circuit type (Series, Parallel).
-- [ ] Better circuit system (Currently uses a simple array of connected lights `BP_Light`).
-- [ ] Save/Load system for light states
+- [ ] Circuit behavior (series/parallel) for light strings (Only "None" is currently working)
 - [ ] Energy-based gameplay integration (power limiters, voltage drop, etc.)
-- [ ] Light presets (e.g. flickering neon, broken halogen, sci-fi light pulses)
+- [ ] More Light presets (e.g. flickering neon, broken halogen, sci-fi light pulses)
+- [ ] Light Models (e.g. light bulbs, LED strips, etc.)
 - [ ] Editor UI / Widget for circuit overview (Currently uses debug lines and text labels, and lines are kinda broken in UE)
-- [ ] ... if you have suggestions, feel free to contribute or contact me
-- [ ] <b>Better folder structure and documentation</b> xD
-- [ ] FAB Marketplace release
+- [ ] Save/Load system for light states
 
 ---
 
