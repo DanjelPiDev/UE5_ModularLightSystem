@@ -56,7 +56,7 @@ This system is designed for both gameplay logic and level design, allowing inter
 ### 1. Add the Interaction Manager to the Level
 
 Drag and drop `BP_LightInteractionManager` from
-`Content/MLS/Blueprints/Manager/` into your level.
+`Content/ModularLightSystem/Blueprints/Manager/` into your level.
 
 ### 2. Enhanced Input System Required
 
@@ -78,7 +78,7 @@ You can now use:
  - BP_PowerSupply (`WIP`)
 
 Located under
-`Content/MLS/Blueprints/Components/`
+`Content/ModularLightSystem/Blueprints/Components/`
 
 ---
 
