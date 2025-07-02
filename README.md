@@ -77,7 +77,7 @@ Located under
 - [ ] Energy-based gameplay integration (power limiters, voltage drop, etc.)
 - [ ] More Light presets (e.g. flickering neon, broken halogen, sci-fi light pulses)
 - [ ] Light Models (e.g. light bulbs, LED strips, etc.)
-- [ ] Editor UI / Widget for circuit overview (Currently uses debug lines and text labels, and lines are kinda broken in UE)
+- [x] Editor UI / Widget for circuit overview (Currently uses debug lines and text labels, and lines are kinda broken in UE)
 - [ ] Save/Load system for light states
 
 ---
