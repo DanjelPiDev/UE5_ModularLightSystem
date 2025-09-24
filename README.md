@@ -5,7 +5,7 @@ Developed with Unreal Engine 5
 > ⚠️ This repository serves only as documentation and for example purposes of my Modular Light System.  
 The full Modular Light System package (including all assets and Blueprints) is available on Epic Games FAB -> [here](https://www.fab.com/listings/5e7bcd51-0d44-4f7c-8f29-4d08cb1e7662).
 
-> The full documentation can be found here [Wiki](https://github.com/NullPointerExcy/UE5_ModularLightSystem/wiki).
+> The full documentation can be found here [Wiki](https://github.com/DanjelPiDev/UE5_ModularLightSystem/wiki).
 
 To use the system in your project, please download it directly via FAB.  
 This repository may include setup guides, usage notes, update logs, and additional resources.
@@ -37,6 +37,7 @@ This system is designed for both gameplay logic and level design, allowing inter
 - Enhanced Input System support (Change the InputAction to your action, see Setup)
 - Destroyable lights (optional) with trigger zones
 - Interaction support for player-controlled toggling (Player has to look at the switch / light, to interact with it)
+- Light Groups (BP_LightGroup): Automatically gather nearby lights within a radius, filter by tag, or include connected child lights. Perfect for quickly setting up complex lighting networks.
 
 ---
 
@@ -65,6 +66,7 @@ You can now use:
  - BP_LightSwitchTrigger
  - BP_LightString (`WIP`)
  - BP_PowerSupply (`WIP`)
+ - BP_LightGroup
 
 Located under
 `Content/ModularLightSystem/Blueprints/Components/`
